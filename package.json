@@ -2,9 +2,9 @@
   "name": "package",
   "version": "1.0.0",
   "description": "this is a project management project",
-  "main": "server.js",
+  "main": "./src/server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon ./src/server.js"
     
   },
   "author": "",
@@ -18,3 +18,5 @@
     "mongoose": "^9.2.4"
   }
 }
+
+
